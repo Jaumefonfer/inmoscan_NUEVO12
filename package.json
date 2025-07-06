@@ -1,0 +1,13 @@
+{
+  "name": "scanner-inmobiliario",
+  "version": "1.0.0",
+  "description": "Scanner inmobiliario",
+  "scripts": {
+    "dev": "python api/app.py",
+    "build": "cd fronted && npm run build",
+    "start": "python api/app.py"
+  },
+  "dependencies": {
+    "@vercel/python": "^0.1.0"
+  }
+}

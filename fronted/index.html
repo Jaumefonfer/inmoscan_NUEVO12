@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InmoScan</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo-remove.png" sizes="32x32">
+    <link rel="stylesheet" href="assets/libs/OwlCarousel-2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/css/iconfont/tabler-icons.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!------------------------------>
+    <!-- Header Start -->
+    <!------------------------------>
+    <header class="main-header position-fixed w-100">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl py-0">
+                <div class="logo">
+                    <a class="navbar-brand py-0 me-0" href="#"><img src="./assets/images/logo-removebg-preview.png" alt=""></a>
+                </div>
+                <a class="d-inline-block d-lg-block d-xl-none d-xxl-none  nav-toggler text-decoration-none"  data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="ti ti-menu-2 text-warning"></i>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">                                             
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize" href="#princing-section">Precio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize" href="#faq-section">Preguntas frecuentes</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <a class="btn btn-warning  text-capitalize" href="#">Registrarse</a>
+                            <a class="btn btn-outline-warning text-capitalize ms-2" href="#">Iniciar sesión</a>
+                        </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="offcanvas offcanvas-start"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <div class="logo">
+                    <a class="navbar-brand py-0 me-0" href="#"><img src="../assets/images/logo.png" alt="" class="img-fluid" style="max-width: 200px; height: auto;"></a>
+                </div> 
+                <button type="button class="btn-close text-reset  ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"><i class="ti ti-x text-warning"></i></button>
+            </div>
+            <div class="offcanvas-body pt-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#princing-section">Precio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#faq-section">Preguntas Frecuentes</a>
+                    </li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+    <!------------------------------>
+    <!-- Header End  -->
+    <!------------------------------>
+
+    <!------------------------------>
+    <!--- Hero Banner Start--------->
+    <!------------------------------>
+    <section class="hero-banner position-relative overflow-hidden">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="position-relative left-hero-color">
+                        <h1 class="mb-0 fw-bold">
+                            Cansado de interminables listados de inmuebles?
+                        </h1>
+                        <p>Descubre la nueva herramienta inmobiliaria impresindible, <br> que te encantará.</p>
+                        <a href="#" class="btn btn-warning">
+                            <span class="d-inline-block me-2"></span> Empieza gratis
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="position-relative right-hero-color">
+                        <div class="overflow-hidden position-relative d-flex align-items-center justify-content-center mx-auto text-center" style="border-radius: 15px; width: 100px; height: 5px;"></div>
+                            <img src="listado2.png" class="img-fluid w-100 h-100" style="object-fit: cover; border-radius: 15px; width: 5px; height: 20px;">
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="position-relative right-hero-color">
+                            <img src="listado.png">
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        </div>-->
+    </section>
+    <!------------------------------>
+    <!--- Hero Banner End--------->
+    <!------------------------------>
+
+    <!------------------------------>
+    <!--- Service sectin Start------>
+    <!------------------------------>
+    <section class="service position-relative overflow-hidden">
+        <div class="container position-relative">
+            <img src="assets/images/service/dot-shape.png" class="shape position-absolute">
+            <div class="row">
+                <div class="col-12"><small class="fs-7 d-block">Pruébalo tu mismo</small></div>
+                <div class="col-12 d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-sm-block d-block align-items-center justify-content-xxl-between justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-sm-between justify-content-sm-center ">
+                    <h2 class="fs-2 text-black mb-0">Prepárate para<br> quedar impresionado</h2>
+                    <a href="#" class="btn btn-warning section-btn">Pruébalo gratis</a>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap justify-content-center step-row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <div class="icon-round overflow-hidden rounded-circle position-relative d-flex align-items-center justify-content-center mx-auto text-center">
+                                <i class="bi bi-filetype-xlsx text-primary position-relative"></i>
+                            </div>
+                            <h5 class="mb-0 fw-500">Paso 1</h5>
+                            <h3 class="fs-4">Sube tu archivo</h3>
+                            <p class="fs-7 mb-0 fw-500">La hoja de calculó, necesita una columna con las referencias catastrales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <div class="icon-round overflow-hidden rounded-circle position-relative d-flex align-items-center justify-content-center mx-auto text-center">
+                                <i class="bi bi-search text-primary position-relative"></i>
+                            </div>
+                            <h5 class="mb-0 fw-500">Paso 2</h5>
+                            <h3 class="fs-4">Filtra los inmuebles</h3>
+                            <p class="fs-7 mb-0 fw-500">Selecciona los inmuebles que quieras por tipo, ubicación, metros, año de construcción.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <div class="icon-round overflow-hidden rounded-circle position-relative d-flex align-items-center justify-content-center mx-auto text-center">
+                                <i class="bi bi-house-check-fill text-primary position-relative"></i>
+                                
+                            </div>
+                            <h5 class="mb-0 fw-500">Paso 3</h5>
+                            <h3 class="fs-4">Encuentra tu inmueble</h3>
+                            <p class="fs-7 mb-0 fw-500">Descubra por qué acaba de encontrar la herramienta inmobiliaria impresindible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------>
+    <!--- Service sectin Start------>
+    <!------------------------------>
+    
+    <!---------------------------------->
+    <!--- Our Service sectin Start------>
+    <!---------------------------------->
+    <section class="our-service position-relative overflow-hidden">
+        <div class="container"
+            <div class="row">
+                <div class="col-xxl-8 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <img src="assets/images/our-service/our-service.svg" class="img-fluid"> 
+                </div>
+                <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ps-xxl-0 ps-xl-0 ps-lg-3 ps-md-3 ps-sm-3 ps-3">
+                    <small class="fs-7 d-block">Nuestro Servicio</small>
+                    <h2 class="fs-2 text-black mb-0">La nueva forma de trabajar mas <span class="typed-word-container"><span id="typed-word" class="highlight" style="color: rgb(40, 40, 216)"></span></span></h2>
+                    <p class="mb-0 fw-500 fs-7">
+                        Sube tu hoja de calculo Lo que antes te tomaba horas, ahora lo harás en minutos. 🚀
+                    </p>
+                    <ul class="list-unstyled mb-0 pl-0">
+                        <li class="d-flex flex-wrap align-items-start">
+                            <i class="ti ti-circle-check fs-4 pe-2"></i>
+                            <span class="fs-7 text-black">Ahorra tiempo y maximiza tus oportunidades.</span>
+                        </li>
+                        <li class="d-flex flex-wrap align-items-start">
+                            <i class="ti ti-circle-check fs-4 pe-2"></i>
+                            <span class="fs-7 text-black">Google Maps directo de cada inmueble.</span>
+                        </li>
+                        <li class="d-flex flex-wrap align-items-start">
+                            <i class="ti ti-circle-check fs-4 pe-2"></i>
+                            <span class="fs-7 text-black">Integración con el catastro.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!------------------------------>
+    <!--- Our Service sectin End---->
+    <!------------------------------>
+    <style>
+        .typed-word-container {
+            display: inline-block;
+            width: 100%;
+            min-width: 150px;
+        }
+        #typed-word {
+            display: inline-block;
+            white-space: nowrap;
+        }
+    </style>
+    
+    <!------------------------------>
+    <!-- Portfolio section Start---->
+    <!------------------------------>
+    <section id="empieza-gratis" class="portfolio position-relative bg-primary" style="height: 10px; min-height: 10px; max-height: 10px;"></section>
+    <!------------------------------>
+    <!-- Portfolio section End ----->
+    <!------------------------------>
+    <div id="stock">
+
+    </div>
+    <div class="my-4" id="buscar"></div>
+    
+        <p class="alert alert-info">
+            Encuentra <strong>rápidamente</strong> tu inmueble ideal.
+        </p>
+        <!-- Formulario de carga y filtros -->
+        <form id="mainForm" onsubmit="consultarDatos(event)" class="card p-3 mb-4 shadow-sm">
+            <label class="form-label">Sube tu archivo Excel:</label>
+            <div class="mb-3">
+                <input type="file" id="fileInput" class="form-control" accept=".xlsx, .xls" required>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="consultarDatos(event)">Buscar</button>
+
+            <!-- Tipo de Inmueble -->
+            <div id="TipoDeInmueble" style="display: none;" class="col-md-4">
+                <label class="form-label">Tipo de Inmueble:</label>
+                <div id="claseCheckboxes" class="btn-group" role="group">
+                    <!-- Checkboxes dinámicos se insertarán aquí -->
+                </div>
+            </div>
+
+            <div id="plantas" style="display: none;">
+                <label class="form-label">Elige las plantas:</label><br>
+                <div id="claseCheckboxes" class="btn-group" role="group">
+                    <!-- Checkboxes dinámicos se insertarán aquí -->
+                </div>
+            </div>
+
+            <!-- Filtros -->
+            <div id="formulario" style="display: none;">
+                <div class="mb-3">
+                    <label class="form-label">Superficie (m²)</label>
+                    <div class="input-group">
+                        <input type="number" id="metrosConstruidosMin" class="form-control" placeholder="Mínimo">
+                        <input type="number" id="metrosConstruidosMax" class="form-control" placeholder="Máximo">
+                    </div>
+                </div>
+                
+            <div class="mb-3">
+                <label class="form-label">Año Construcción</label>
+                <div class="input-group">
+                    <input type="number" id="añoConstruccionMin" class="form-control" placeholder="Desde">
+                    <input type="number" id="añoConstruccionMax" class="form-control" placeholder="Hasta">
+                </div>
+            </div>
+
+            <!-- Ubicación 
+            <div class="mb-3">
+                <label for="ubicacion" class="form-label">Ubicación:</label>
+                <input type="text" id="provincias" class="form-control mb-2" placeholder="Provincias (separadas por comas) (ej: Barcelona, Madrid)">
+                <input type="text" id="ciudades" class="form-control mb-2" placeholder="Ciudades (separadas por comas) (ej: Madrid, Barcelona)">
+                <input type="text" id="barrios" class="form-control" placeholder="Barrios (Código Postal) (ej: 08003, 08001)">
+            </div> -->
+
+            <!-- Selección de columnas -->
+            <div id="columnSelector" class="mb-4" style="display: none;">
+                <h5>EXCEL DATOS: Selecciona las columnas que quieres mostrar.</h5>
+                <button type="button" class="btn btn-secondary btn-sm mb-2" onclick="toggleAllColumns()">Seleccionar/Deseleccionar Todo</button>
+                <select id="columnOptions" class="form-select" multiple size="5">
+                    <!-- Opciones de columnas dinámicas se insertarán aquí -->
+                </select>
+            </div>
+        </form> 
+
+        <!-- Resultados -->
+        <div id="results" class="d-none">
+            <div id="result-container" class="row g-3"></div>
+            <nav aria-label="Page navigation" class="mt-4">
+                <ul id="pagination" class="pagination justify-content-center"></ul>
+            </nav>
+        </div>
+
+        <!-- Loading -->
+        <div id="loading" class="position-fixed top-50 start-50 translate-middle d-none">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Cargandoproyecto.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+     <!------------------------------>
+    <!-- Pricing section Start------>
+    <!------------------------------>
+    <section id="princing-section" class="pricing position-relative overflow-hidden">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <small class="fs-7 d-block">Un plan con todo incluido</small>
+                    <h2 class="fs-3 pricing-head text-black mb-0 position-relative">Sin cargos ocultos
+                        Cancela cuando quieras</h2>
+                </div>
+            </div>
+            <div class="row plans">
+                <div class="col-12 text-center">
+                    <div class="form-check form-switch d-flex justify-content-center ps-0 align-items-center">
+                        <label class="form-check-label text-black fs-7" for="flexSwitchCheckChecked">Plan Mensual</label>
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label text-black fs-7" for="flexSwitchCheckChecked">Anual</label>
+                    </div>
+                    <div class="save d-inline-block position-relative text-warning fw-500 fs-9 text-center">Ahorra hasta un 20%</div>
+                </div>
+            <div class="row justify-content-center price-plan">
+               
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="card position-relative shadow border-0 h-100">
+                        <div class="card-body pb-4">
+                            <small class="fs-7 d-block text-warning text-center">Profesional</small>
+                            <h2 class="mb-4 text-center position-relative"><sub class="fs-2 text-black">49</sub><sup class="fs-6 position-absolute">$</sup></h2>
+                            
+                            
+                            <ul class="list-unstyled mb-0 pl-0">
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Foto fachada</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Filtrado avanzado</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Precio del inmueble</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Acceso directo a Google Maps</span>
+                                </li>
+                                
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">10 fuentes de datos gubertamentales</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">filtra hasta 20.000 inmuebles</span>
+                                </li>            
+                            </ul>
+                        </div>
+                        <div class="card-action text-center pb-xxl-5 pb-xl-5 pb-lg-5 pb-md-4 pb-sm-4 pb-4">
+                            <a href="#" class="btn btn-warning btn-hover-secondery text-capitalize">Set Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------>
+    <!-- Pricing section End-------->
+    <!------------------------------>
+    
+    <!------------------------------>
+    <!------ FAQ section Start------>
+    <!------------------------------>
+    <section id="faq-section" class="faq position-relative overflow-hidden">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <small class="fs-7 d-block">Preguntas frecuentes</small>
+                    <h2 class="fs-3 text-black mb-0">¿Quieres preguntarnos algo?</h2>
+                </div>
+            </div>
+            <div class="accordion-block">
+                    <div class="accordion row" id="accordionPanelsStayOpenExample">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                  <button class="accordion-button text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                      Se puede usar cualquier hoja de calculo o excel?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      Puedes usar cualquier archivo XLSX, pero necesita al menos una columna con las referencias catastrales de cada inmueble.
+                                      Los inmuebles que no tienen referencia catastral no seran filtrado por la herrramienta
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                      Que precios tiene esta herramienta ?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      Puedes probar la herramienta de forma gratuita, y si te gusta, puedes contratar una suscripción mensual o anual.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                      Hay un limite de propiedas en el excel que pueda filtrar ?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      Ahora mismo en la versión gratuita tiene una limitación de 100 propiedades, pero en breve lanzaremos una versión sin limitaciones.
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                                   Porque no me funciona ?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                    La herramienta esta en fase de pruebas pero si tienes algun problema, por favor, contacta con nosotros.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapsefive">
+                                    De donde salen los datos de los inmuebles ?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                    Utilizamos fuentes gubernamentales, como el Catastro, para obtener los datos de los inmuebles, entre muchas otras.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingsix">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapsesix">
+                                    Tiene un limite de filas de excel?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingsix">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      Tienes un limite de 100 propiedades en esta primera versión.
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------>
+    <!------ FAQ section End------>
+    <!------------------------------>    
+    
+    
+
+    <!------------------------------>
+    <!-----Footer Start------------->
+    <!------------------------------>
+    <footer class="bg-primary text-white text-center py-3">
+        <p>InmoScan | Haz el trabajo de horas en minutos!</p>
+    </footer>
+    <!------------------------------>
+    <!-------Footer End------------->
+    <!------------------------------>
+    <div>
+        
+    </div>
+
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/script.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/libs/OwlCarousel-2/dist/owl.carousel.min.js"></script>
+    <script src="dist/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+    <script>
+        var typed = new Typed("#typed-word", {
+            strings: [
+                "rápida",
+                "cómoda",
+                "inteligente",
+            ],
+            typeSpeed: 80, // Velocidad de escritura
+            backSpeed: 50, // Velocidad de borrado
+            backDelay: 1200, // Tiempo antes de borrar
+            startDelay: 500, // Retraso inicial
+            loop: true // Repetir el ciclo
+        });
+    </script>
+</body>
+</html>
