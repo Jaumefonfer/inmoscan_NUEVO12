@@ -9,9 +9,6 @@
     "build:js": "babel fronted/js --out-dir fronted/dist/js",
     "start": "python api/app.py"
   },
-  "dependencies": {
-    "@vercel/python": "^0.1.0"
-  },
   "devDependencies": {
     "sass": "^1.58.0",
     "@babel/core": "^7.22.0",
