@@ -4,10 +4,18 @@
   "description": "Scanner inmobiliario",
   "scripts": {
     "dev": "python api/app.py",
-    "build": "cd fronted && npm run build",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "sass fronted/scss:fronted/dist/css",
+    "build:js": "babel fronted/js --out-dir fronted/dist/js",
     "start": "python api/app.py"
   },
   "dependencies": {
     "@vercel/python": "^0.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.58.0",
+    "@babel/core": "^7.22.0",
+    "@babel/cli": "^7.22.0",
+    "@babel/preset-env": "^7.22.0"
   }
 }
