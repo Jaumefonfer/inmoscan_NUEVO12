@@ -7,7 +7,8 @@
     "build": "npm run build:css && npm run build:js",
     "build:css": "sass fronted/scss:fronted/dist/css",
     "build:js": "babel fronted/js --out-dir fronted/dist/js",
-    "start": "python api/app.py"
+    "start": "python api/app.py",
+    "vercel-build": "npm run build"
   },
   "devDependencies": {
     "sass": "^1.58.0",
